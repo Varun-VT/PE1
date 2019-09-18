@@ -3,7 +3,7 @@ package com.MathApp;
 import java.util.Scanner;
 
 public class ques_5 {
-    public static void main()
+    public static void sumOfNumbers()
     {
         Scanner sc = new Scanner(System.in);
         int number, sum=0;

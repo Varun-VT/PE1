@@ -1,5 +1,4 @@
 package com.MathApp;
-import allimplementedquestions.*;
 
 import java.util.Scanner;
 
@@ -20,25 +19,36 @@ public class allquestions{
         int a=sc.nextInt();
         String s= "ques_"+ Integer.toString(a);
         switch (a){
-            case 1: ques_1.main();
+            case 1:
+                ques_1 q1= new ques_1();
+                q1.palindrome();
                     break;
-            case 2:ques_2.main();
+            case 2:ques_2 q2= new ques_2();
+                q2.lessOrMoreThan20();
                     break;
-            case 3: ques_3.main();
+            case 3: ques_3 q3= new ques_3();
+                q3.labelItAsVowOrCons();
                     break;
-            case 4: ques_4.main();
+            case 4: ques_4 q4= new ques_4();
+                q4.makePattern();
                     break;
-            case 5: ques_5.main();
+            case 5: ques_5 q5= new ques_5();
+                q5.sumOfNumbers();
                     break;
-            case 6: ques_6.main();
+            case 6: ques_6 q6= new ques_6();
+                q6.isCapitalDigitSmallSpecial();
                 break;
-            case 7: ques_7.main();
+            case 7: ques_7 q7= new ques_7();
+                q7.listOfNumbersSortAndSum();
                     break;
-            case 8: ques_8.main();
+            case 8: ques_8 q8= new ques_8();
+                q8.guessTheTargetNumber();
                 break;
-            case 9: ques_9.main();
+            case 9: ques_9 q9= new ques_9();
+                q9.reverseTheString();
                 break;
-            case 10:ques_10.main();
+            case 10:ques_10 q10= new ques_10();
+                q10.printLikeStacacacPattern();
                 break;
             default: System.out.println("Invalid Input");
 }

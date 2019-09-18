@@ -9,7 +9,7 @@ public class ques_3 {
         }
         return false;
     }
-    public static void main(String[] args)
+    public static void labelItAsVowOrCons()
     {
         Scanner sc = new Scanner(System.in);
         String f="";

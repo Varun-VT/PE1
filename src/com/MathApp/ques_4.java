@@ -11,7 +11,7 @@ public class ques_4 {
         return s;
     }
 
-    public static void main(){
+    public static void makePattern(){
         Scanner sc = new Scanner(System.in);
         int n= sc.nextInt();
         String s="";

@@ -3,7 +3,7 @@ package com.MathApp;
 import java.util.Scanner;
 
 public class ques_2 {
-    public static void main()
+    public static void lessOrMoreThan20()
     {
         Scanner sc = new Scanner(System.in);
         int n= sc.nextInt();

@@ -30,7 +30,7 @@ public class ques_6 {
     static boolean isUpperCase(char ch) {
         return ch >= 'A' && ch <= 'Z';
     }
-    public static void main()
+    public static void isCapitalDigitSmallSpecial()
     {
         Scanner sc = new Scanner(System.in);
         int number, sum=0;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ques_9 {
     public ques_9() {
     }
-    public static void main() {
+    public static void reverseTheString() {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String s = "";

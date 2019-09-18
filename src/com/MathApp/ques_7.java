@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ques_7 {
-    public static void main()
+    public static void listOfNumbersSortAndSum()
     {
         Scanner sc = new Scanner(System.in);
         int sum=0;

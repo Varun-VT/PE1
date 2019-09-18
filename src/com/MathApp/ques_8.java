@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ques_8 {
-    public static void main() {
+    public static void guessTheTargetNumber() {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
         int r = rand.nextInt(50);

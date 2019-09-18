@@ -3,7 +3,7 @@ package com.MathApp;
 import java.util.Scanner;
 
 public class ques_1 {
-    public static void main()
+    public static void palindrome()
     {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
